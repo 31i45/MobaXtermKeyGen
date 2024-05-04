@@ -11,6 +11,7 @@ python mobaxtermkeygen.py
 ## Docker
 ```
 cd mobaxterm-keygen
+docker pull python:3.9.16-alpine3.18
 docker build . mobaxterm-keygen
 docker run -d -p 50000:50000 mobaxterm-keygen
 ```
