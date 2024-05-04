@@ -1,4 +1,4 @@
-FROM python:3.9.18-slim-bullseye as base
+FROM python:3.9.16-alpine3.18 as base
 
 FROM base as builder
 RUN mkdir /install
